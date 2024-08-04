@@ -227,5 +227,6 @@ def delete_section(notebook_id, note_id, section_id):
     return render_template("delete_section.html", notebook=notebook_id, note=note_id, section=Section.query.get(section_id))
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
+if True:
     app.run(debug=True)
